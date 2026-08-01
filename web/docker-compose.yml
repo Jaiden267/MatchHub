@@ -1,0 +1,18 @@
+services:
+  sport-scores:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: sport-scores
+    restart: unless-stopped
+    init: true
+
+    env_file:
+      - .env.local
+
+    environment:
+      NODE_ENV: production
+
+    ports:
+      - "3100:3000"
