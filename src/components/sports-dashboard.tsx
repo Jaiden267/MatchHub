@@ -184,7 +184,7 @@ export default function SportsDashboard() {
     <main className="mx-auto min-h-screen max-w-5xl px-5 py-10">
       <header className="mb-10">
         <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-blue-600">
-          Sport Scores
+          MATCH HUB
         </p>
         <h1 className="text-4xl font-bold tracking-tight">
           Every team. One fixture list.
